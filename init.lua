@@ -15,7 +15,7 @@ minetest.register_node("windchimes:metal", {
 			{-0.2, -0.5, -0.2, 0.2, 0.5, 0.2},
 		}
 	},
-	use_texture_alpha = true,
+	use_texture_alpha = "clip",
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_glass_defaults(),
@@ -45,7 +45,7 @@ minetest.register_node("windchimes:bamboo", {
 			{-0.2, -0.5, -0.2, 0.2, 0.5, 0.2},
 		}
 	},
-	use_texture_alpha = true,
+	use_texture_alpha = "clip",
 	sunlight_propagates = true,
 	groups = {cracky=3,oddly_breakable_by_hand=3},
 	sounds = default.node_sound_wood_defaults(),
